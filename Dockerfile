@@ -1,8 +1,5 @@
 FROM node:argon
 
-# Install required prereqs.
-RUN apt-get -y update
-
 # Create app directory
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
